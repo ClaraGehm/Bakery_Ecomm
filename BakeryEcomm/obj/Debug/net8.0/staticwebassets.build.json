@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vS2YWF+1cW0jIoVE6nsBEYg8lTa38ck8O+w6P93CnLM=",
+  "Hash": "8fpNEMcxeu3CRuZGwNg5baeVf9YekPsp5zY1/bcl3Cw=",
   "Source": "BakeryEcomm",
   "BasePath": "_content/BakeryEcomm",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BakeryEcomm\\wwwroot",
       "Source": "BakeryEcomm",
-      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\",
       "BasePath": "_content/BakeryEcomm",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BakeryEcomm.styles.css",
+      "Identity": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BakeryEcomm.styles.css",
       "SourceId": "BakeryEcomm",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BakeryEcomm",
       "RelativePath": "BakeryEcomm#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "OC6F7D1FEdxfwDOM2zJXPbiqK85ei5bXGX1863kPHnU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BakeryEcomm.styles.css"
+      "OriginalItemSpec": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BakeryEcomm.styles.css"
     },
     {
-      "Identity": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BakeryEcomm.bundle.scp.css",
+      "Identity": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BakeryEcomm.bundle.scp.css",
       "SourceId": "BakeryEcomm",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BakeryEcomm",
       "RelativePath": "BakeryEcomm#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "OC6F7D1FEdxfwDOM2zJXPbiqK85ei5bXGX1863kPHnU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BakeryEcomm.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BakeryEcomm.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\app.css",
       "SourceId": "BakeryEcomm",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\",
       "BasePath": "_content/BakeryEcomm",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "BakeryEcomm",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\",
       "BasePath": "_content/BakeryEcomm",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BakeryEcomm",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\",
       "BasePath": "_content/BakeryEcomm",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\favicon.png",
       "SourceId": "BakeryEcomm",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\",
       "BasePath": "_content/BakeryEcomm",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -146,7 +146,7 @@
   "Endpoints": [
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -183,7 +183,7 @@
     },
     {
       "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -228,7 +228,7 @@
     },
     {
       "Route": "BakeryEcomm.bundle.scp.css",
-      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BakeryEcomm.bundle.scp.css",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BakeryEcomm.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -249,7 +249,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 Aug 2025 00:27:59 GMT"
+          "Value": "Thu, 07 Aug 2025 20:31:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -265,7 +265,7 @@
     },
     {
       "Route": "BakeryEcomm.o4tnbcmpb8.bundle.scp.css",
-      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BakeryEcomm.bundle.scp.css",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BakeryEcomm.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -286,7 +286,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 Aug 2025 00:27:59 GMT"
+          "Value": "Thu, 07 Aug 2025 20:31:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -310,7 +310,7 @@
     },
     {
       "Route": "BakeryEcomm.o4tnbcmpb8.styles.css",
-      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BakeryEcomm.styles.css",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BakeryEcomm.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -331,7 +331,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 Aug 2025 00:27:59 GMT"
+          "Value": "Thu, 07 Aug 2025 20:31:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -355,7 +355,7 @@
     },
     {
       "Route": "BakeryEcomm.styles.css",
-      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BakeryEcomm.styles.css",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BakeryEcomm.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -376,7 +376,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 Aug 2025 00:27:59 GMT"
+          "Value": "Thu, 07 Aug 2025 20:31:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -392,7 +392,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -437,7 +437,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -474,7 +474,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -519,7 +519,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -556,7 +556,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -601,7 +601,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {

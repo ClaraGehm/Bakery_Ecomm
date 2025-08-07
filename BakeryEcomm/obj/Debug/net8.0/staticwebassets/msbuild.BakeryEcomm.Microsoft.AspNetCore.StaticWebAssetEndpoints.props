@@ -16,13 +16,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BakeryEcomm.o4tnbcmpb8.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OC6F7D1FEdxfwDOM2zJXPbiqK85ei5bXGX1863kPHnU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5905"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022OC6F7D1FEdxfwDOM2zJXPbiqK85ei5bXGX1863kPHnU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 05 Aug 2025 00:27:59 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5905"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022OC6F7D1FEdxfwDOM2zJXPbiqK85ei5bXGX1863kPHnU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 20:31:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BakeryEcomm/BakeryEcomm.o4tnbcmpb8.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BakeryEcomm.o4tnbcmpb8.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o4tnbcmpb8"},{"Name":"integrity","Value":"sha256-OC6F7D1FEdxfwDOM2zJXPbiqK85ei5bXGX1863kPHnU="},{"Name":"label","Value":"_content/BakeryEcomm/BakeryEcomm.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5905"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022OC6F7D1FEdxfwDOM2zJXPbiqK85ei5bXGX1863kPHnU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 05 Aug 2025 00:27:59 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5905"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022OC6F7D1FEdxfwDOM2zJXPbiqK85ei5bXGX1863kPHnU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 20:31:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BakeryEcomm/bootstrap/bootstrap.min.bpk8xqwxhs.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bootstrap\bootstrap.min.css'))</AssetFile>

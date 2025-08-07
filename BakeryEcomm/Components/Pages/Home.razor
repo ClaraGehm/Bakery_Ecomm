@@ -1,7 +1,26 @@
-﻿@page "/"
+﻿@inject GenericService<Bakery_Item> _bakeryService
+@page "/"
 
 <PageTitle>Home</PageTitle>
 
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
+
+@foreach (var item in bakeryItems)
+{
+    <div class="bakery-item">
+        <h2>@item.Name</h2>
+        <p>Price: @item.Price.ToString("C")</p>
+    </div>
+}
+
+@code {
+    private List<Bakery_Item> bakeryItems = new List<Bakery_Item>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var temp = await _bakeryService.GetAllAsync();
+        bakeryItems = temp.ToList();
+    }
+}

@@ -1,6 +1,7 @@
 using BakeryEcomm.Components;
 using BakeryEcomm.Models;
 using BakeryEcomm.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,11 +10,34 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContextFactory<BakeryEcommContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DBConnection")));
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
 
-builder.Services.AddSingleton(typeof(GenericService<>));
-builder.Services.AddScoped(typeof(IGenericService<>), typeof(GenericService<>));
+// Add Blazor and Razor Pages
+builder.Services.AddRouting();
+builder.Services.AddSignalR().AddJsonProtocol();
+
+builder.Services.AddScoped(typeof(BakeryEcomm.Services.GenericService<>));
+builder.Services.AddScoped(typeof(BakeryEcomm.Services.IGenericService<>), typeof(BakeryEcomm.Services.GenericService<>));
 
 // Add services to the container.
+builder.Services.AddAntiforgery(options =>
+{
+    options.Cookie.SecurePolicy = CookieSecurePolicy.Always; // Ensure cookie is marked as Secure
+    options.Cookie.SameSite = SameSiteMode.None;
+});
+builder.Services.AddRazorPages();
+builder.Services.AddServerSideBlazor(options =>
+{
+    options.DetailedErrors = true;
+});
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
@@ -27,9 +51,12 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseCors("AllowSpecificOrigin");
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();
+app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
 app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
