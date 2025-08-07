@@ -3,24 +3,92 @@
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
-
-@foreach (var item in bakeryItems)
-{
-    <div class="bakery-item">
-        <h2>@item.Name</h2>
-        <p>Price: @item.Price.ToString("C")</p>
+<h1>Our Menu!</h1>
+<h2>Food</h2>
+<div class="container">
+    <div class="text">
+        @foreach (var item in bakeryItems)
+        {
+            <div class="bakery-item">
+                <h3>@item.Name</h3>
+                <p>Price: @item.Price.ToString("C")</p>
+            </div>
+        }
     </div>
-}
+    <div class="image">
+        <img src="chocolate-cake-slice-e1562794545746.jpg" alt="Bakery Image" class="bakery-image" />
+    </div>
+</div>
+<h2>Drinks</h2>
+<div class="container">
+    <div class="text">
+        @foreach (var item in drinks)
+        {
+            <div class="bakery-item">
+                <h3>@item.Name</h3>
+                <p>Price: @item.Price.ToString("C")</p>
+            </div>
+        }
+    </div>
+    <div class="image">
+        <img src="coffee.jpg" alt="Bakery Image" class="bakery-image" />
+    </div>
+</div>
+
+<style>
+    h1, h2 {
+        text-align: center;
+    }
+
+    h2 {
+        padding-top: 20px;
+    }
+    
+    .container {
+        width: 80%;
+      display: flex;
+      align-items: center; /* Vertically center items */
+      justify-content: space-between;
+    }
+
+    .text {
+      flex: 1;
+      text-align: left;
+      padding-right: 20px; /* spacing between text and image */
+    }
+
+    .image {
+      flex-shrink: 0;
+    }
+
+    .image img {
+      max-width: 300px; /* Adjust as needed */
+      height: auto;
+      display: block;
+    }
+
+</style>
 
 @code {
     private List<Bakery_Item> bakeryItems = new List<Bakery_Item>();
+    private List<Bakery_Item> drinks = new List<Bakery_Item>();
 
     protected override async Task OnInitializedAsync()
     {
-        var temp = await _bakeryService.GetAllAsync();
-        bakeryItems = temp.ToList();
+        var allItems = await _bakeryService.GetAllAsync();
+
+        foreach (var drink in allItems)
+        {
+            if (drink.Drink)
+            {
+                drinks.Add(drink);
+            } 
+            else
+            {
+                bakeryItems.Add(drink);
+            }
+        }
+
+        await InvokeAsync(StateHasChanged);
     }
 }

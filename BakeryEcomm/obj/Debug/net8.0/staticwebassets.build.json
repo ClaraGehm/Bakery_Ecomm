@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8fpNEMcxeu3CRuZGwNg5baeVf9YekPsp5zY1/bcl3Cw=",
+  "Hash": "ywJgCgadbeqB4xpEIyLYjQlPJcNrjxGEmMbbWPehQ6M=",
   "Source": "BakeryEcomm",
   "BasePath": "_content/BakeryEcomm",
   "Mode": "Default",
@@ -120,6 +120,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\chocolate-cake-slice-e1562794545746.jpg",
+      "SourceId": "BakeryEcomm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\",
+      "BasePath": "_content/BakeryEcomm",
+      "RelativePath": "chocolate-cake-slice-e1562794545746#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ea8i5584ez",
+      "Integrity": "dtNdThjURTFFFWPuqA8WKT3ykkWdF17CFguHtw54Bsc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\chocolate-cake-slice-e1562794545746.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\coffee.jpg",
+      "SourceId": "BakeryEcomm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\",
+      "BasePath": "_content/BakeryEcomm",
+      "RelativePath": "coffee#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iht6ntad86",
+      "Integrity": "xsX2kP9iyUg1y1OkgOxZEo2ilxhFjHL9aeI/yI/TI0A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\coffee.jpg"
     },
     {
       "Identity": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\favicon.png",
@@ -551,6 +593,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "chocolate-cake-slice-e1562794545746.ea8i5584ez.jpg",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\chocolate-cake-slice-e1562794545746.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dtNdThjURTFFFWPuqA8WKT3ykkWdF17CFguHtw54Bsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 21:12:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ea8i5584ez"
+        },
+        {
+          "Name": "label",
+          "Value": "chocolate-cake-slice-e1562794545746.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dtNdThjURTFFFWPuqA8WKT3ykkWdF17CFguHtw54Bsc="
+        }
+      ]
+    },
+    {
+      "Route": "chocolate-cake-slice-e1562794545746.jpg",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\chocolate-cake-slice-e1562794545746.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dtNdThjURTFFFWPuqA8WKT3ykkWdF17CFguHtw54Bsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 21:12:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dtNdThjURTFFFWPuqA8WKT3ykkWdF17CFguHtw54Bsc="
+        }
+      ]
+    },
+    {
+      "Route": "coffee.iht6ntad86.jpg",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\coffee.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xsX2kP9iyUg1y1OkgOxZEo2ilxhFjHL9aeI/yI/TI0A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 21:20:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iht6ntad86"
+        },
+        {
+          "Name": "label",
+          "Value": "coffee.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xsX2kP9iyUg1y1OkgOxZEo2ilxhFjHL9aeI/yI/TI0A="
+        }
+      ]
+    },
+    {
+      "Route": "coffee.jpg",
+      "AssetFile": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\coffee.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xsX2kP9iyUg1y1OkgOxZEo2ilxhFjHL9aeI/yI/TI0A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 21:20:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xsX2kP9iyUg1y1OkgOxZEo2ilxhFjHL9aeI/yI/TI0A="
         }
       ]
     },

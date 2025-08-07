@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\chocolate-cake-slice-e1562794545746.jpg",
+      "PackagePath": "staticwebassets\\chocolate-cake-slice-e1562794545746.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\coffee.jpg",
+      "PackagePath": "staticwebassets\\coffee.jpg"
+    },
+    {
       "Id": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },

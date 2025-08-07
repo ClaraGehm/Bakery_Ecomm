@@ -331,6 +331,170 @@
       ]
     },
     {
+      "Route": "chocolate-cake-slice-e1562794545746.ea8i5584ez.jpg",
+      "AssetFile": "chocolate-cake-slice-e1562794545746.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dtNdThjURTFFFWPuqA8WKT3ykkWdF17CFguHtw54Bsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 21:12:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ea8i5584ez"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dtNdThjURTFFFWPuqA8WKT3ykkWdF17CFguHtw54Bsc="
+        },
+        {
+          "Name": "label",
+          "Value": "chocolate-cake-slice-e1562794545746.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "chocolate-cake-slice-e1562794545746.jpg",
+      "AssetFile": "chocolate-cake-slice-e1562794545746.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dtNdThjURTFFFWPuqA8WKT3ykkWdF17CFguHtw54Bsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 21:12:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dtNdThjURTFFFWPuqA8WKT3ykkWdF17CFguHtw54Bsc="
+        }
+      ]
+    },
+    {
+      "Route": "coffee.iht6ntad86.jpg",
+      "AssetFile": "coffee.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xsX2kP9iyUg1y1OkgOxZEo2ilxhFjHL9aeI/yI/TI0A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 21:20:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iht6ntad86"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xsX2kP9iyUg1y1OkgOxZEo2ilxhFjHL9aeI/yI/TI0A="
+        },
+        {
+          "Name": "label",
+          "Value": "coffee.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "coffee.jpg",
+      "AssetFile": "coffee.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xsX2kP9iyUg1y1OkgOxZEo2ilxhFjHL9aeI/yI/TI0A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 21:20:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xsX2kP9iyUg1y1OkgOxZEo2ilxhFjHL9aeI/yI/TI0A="
+        }
+      ]
+    },
+    {
       "Route": "favicon.ifv42okdf2.png",
       "AssetFile": "favicon.png",
       "Selectors": [],

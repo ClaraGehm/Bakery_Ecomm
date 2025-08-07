@@ -1,4 +1,6 @@
 wwwroot\app.css
 wwwroot\bootstrap\bootstrap.min.css
 wwwroot\bootstrap\bootstrap.min.css.map
+wwwroot\chocolate-cake-slice-e1562794545746.jpg
+wwwroot\coffee.jpg
 wwwroot\favicon.png
