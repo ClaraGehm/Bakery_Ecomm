@@ -1,6 +1,17 @@
 using BakeryEcomm.Components;
+using BakeryEcomm.Models;
+using BakeryEcomm.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Configure database
+builder.Services.AddDbContextFactory<BakeryEcommContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DBConnection")));
+
+
+builder.Services.AddSingleton(typeof(GenericService<>));
+builder.Services.AddScoped(typeof(IGenericService<>), typeof(GenericService<>));
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
