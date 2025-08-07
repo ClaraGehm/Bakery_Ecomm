@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BakeryEcomm.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BakeryEcomm.o4tnbcmpb8.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\BakeryEcomm\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BakeryEcomm.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BakeryEcomm.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BakeryEcomm.props",
+      "PackagePath": "build\\BakeryEcomm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BakeryEcomm.props",
+      "PackagePath": "buildMultiTargeting\\BakeryEcomm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BakeryEcomm.props",
+      "PackagePath": "buildTransitive\\BakeryEcomm.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
