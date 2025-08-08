@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAFDAEFE-03D0-4D9A-98C7-765E8B9EF2B7}|BakeryEcomm\\BakeryEcomm.csproj|c:\\users\\cjgeh\\documents\\college\\database design\\bakeryecomm\\bakery_ecomm\\bakeryecomm\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CAFDAEFE-03D0-4D9A-98C7-765E8B9EF2B7}|BakeryEcomm\\BakeryEcomm.csproj|solutionrelative:bakeryecomm\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CAFDAEFE-03D0-4D9A-98C7-765E8B9EF2B7}|BakeryEcomm\\BakeryEcomm.csproj|c:\\users\\cjgeh\\documents\\college\\database design\\bakeryecomm\\bakery_ecomm\\bakeryecomm\\components\\pages\\order.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CAFDAEFE-03D0-4D9A-98C7-765E8B9EF2B7}|BakeryEcomm\\BakeryEcomm.csproj|solutionrelative:bakeryecomm\\components\\pages\\order.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAFDAEFE-03D0-4D9A-98C7-765E8B9EF2B7}|BakeryEcomm\\BakeryEcomm.csproj|c:\\users\\cjgeh\\documents\\college\\database design\\bakeryecomm\\bakery_ecomm\\bakeryecomm\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CAFDAEFE-03D0-4D9A-98C7-765E8B9EF2B7}|BakeryEcomm\\BakeryEcomm.csproj|solutionrelative:bakeryecomm\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CAFDAEFE-03D0-4D9A-98C7-765E8B9EF2B7}|BakeryEcomm\\BakeryEcomm.csproj|c:\\users\\cjgeh\\documents\\college\\database design\\bakeryecomm\\bakery_ecomm\\bakeryecomm\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CAFDAEFE-03D0-4D9A-98C7-765E8B9EF2B7}|BakeryEcomm\\BakeryEcomm.csproj|solutionrelative:bakeryecomm\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAFDAEFE-03D0-4D9A-98C7-765E8B9EF2B7}|BakeryEcomm\\BakeryEcomm.csproj|c:\\users\\cjgeh\\documents\\college\\database design\\bakeryecomm\\bakery_ecomm\\bakeryecomm\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAFDAEFE-03D0-4D9A-98C7-765E8B9EF2B7}|BakeryEcomm\\BakeryEcomm.csproj|solutionrelative:bakeryecomm\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAFDAEFE-03D0-4D9A-98C7-765E8B9EF2B7}|BakeryEcomm\\BakeryEcomm.csproj|c:\\users\\cjgeh\\documents\\college\\database design\\bakeryecomm\\bakery_ecomm\\bakeryecomm\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAFDAEFE-03D0-4D9A-98C7-765E8B9EF2B7}|BakeryEcomm\\BakeryEcomm.csproj|solutionrelative:bakeryecomm\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cjgeh\\AppData\\Roaming\\Microsoft\\UserSecrets\\769a9e6f-5f6c-43fe-a0aa-bd362938b3d5\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -45,24 +45,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Order.razor",
               "DocumentMoniker": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\Components\\Pages\\Order.razor",
               "RelativeDocumentMoniker": "BakeryEcomm\\Components\\Pages\\Order.razor",
-              "ToolTip": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\Components\\Pages\\Order.razor",
-              "RelativeToolTip": "BakeryEcomm\\Components\\Pages\\Order.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\Components\\Pages\\Order.razor*",
+              "RelativeToolTip": "BakeryEcomm\\Components\\Pages\\Order.razor*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-07T21:30:17.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "BakeryEcomm\\Components\\Layout\\MainLayout.razor",
@@ -70,12 +70,11 @@
               "RelativeToolTip": "BakeryEcomm\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-07T21:29:01.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T21:29:01.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BakeryEcomm\\Components\\Layout\\NavMenu.razor",
@@ -83,21 +82,19 @@
               "RelativeToolTip": "BakeryEcomm\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-07T21:27:43.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T21:27:43.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BakeryEcomm\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\cjgeh\\Documents\\College\\Database Design\\BakeryEcomm\\Bakery_Ecomm\\BakeryEcomm\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "BakeryEcomm\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-07T20:18:43.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T20:18:43.04Z"
             },
             {
               "$type": "Document",
@@ -109,8 +106,7 @@
               "RelativeToolTip": "BakeryEcomm\\Services\\IGenericService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T16:58:45.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T16:58:45.732Z"
             },
             {
               "$type": "Document",
@@ -122,8 +118,7 @@
               "RelativeToolTip": "BakeryEcomm\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T15:21:54.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T15:21:54.702Z"
             },
             {
               "$type": "Document",
@@ -135,8 +130,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\769a9e6f-5f6c-43fe-a0aa-bd362938b3d5\\secrets.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-07T20:24:56.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T20:24:56.403Z"
             },
             {
               "$type": "Document",
@@ -148,8 +142,7 @@
               "RelativeToolTip": "BakeryEcomm\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-07T20:19:40.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T20:19:40.214Z"
             },
             {
               "$type": "Document",
@@ -161,8 +154,7 @@
               "RelativeToolTip": "BakeryEcomm\\Services\\GenericService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T16:55:50.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T16:55:50.983Z"
             }
           ]
         }

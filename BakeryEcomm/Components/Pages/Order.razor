@@ -1,19 +1,205 @@
 ﻿@page "/order"
+@inject GenericService<Order_Header> _orderHeaderService
+@inject GenericService<Order_Line> _orderLineService
+@inject GenericService<Bakery_Item> _bakeryItemService
+@inject GenericService<Card_Info> _cardInfoService
+@inject GenericService<Drink_Addon> _drinkAddonService
+@inject GenericService<Customer> _customerService
 @rendermode InteractiveServer
 
-<PageTitle>Counter</PageTitle>
+<PageTitle>Order Form</PageTitle>
 
-<h1>Counter</h1>
+<h1>Make An Order</h1>
 
-<p role="status">Current count: @currentCount</p>
+<EditForm Model="NewOrder">
+    <div class="form-group">
+        <label for="customer">Customer</label>
+        <select id="customer" @onchange="(e) => GetNewPayments(e)">
+            <option value="">-- Chose A Customer --</option>
+            @foreach (var customer in AllCustomers)
+            {
+                <option value="@customer.Id">@customer.First_Name @customer.Last_Name</option>
+            }
+        </select>
+    </div>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+    <div class="form-group">
+        <label for="pay">Payment Method</label>
+        <select id="pay" @bind="@NewOrder.Card_Id">
+            <option value="">-- Chose A Payment Method --</option>
+            @foreach (var method in Applicable_Payments)
+            {
+                <option value="@method.Id">@(method.Card_Number), @method.Cardholder_Name</option>
+            }
+        </select>
+    </div>
+
+    @foreach(var newItem in NewOrderLines)
+    {
+        <div class="form-section">
+            <div class="form-group">
+                <label for="bakeryItem">Item</label>
+                <select id="bakeryItem" @onchange="(e) => AddedABakeryItem(e, newItem)">
+                    <option value="">-- Chose A Bakery Item --</option>
+                    @foreach (var item in AllBakeryItems)
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                </select>
+                @if (newItem.Item.Drink == true)
+                {
+                    <label for="flavoring">Flavoring</label>
+                    <select id="flavoring" @onchange="(e) => AddedDrinkAddon(e)">
+                        <option value="">-- Chose A Flavoring --</option>
+                        @foreach (var addon in AllDrinkAddons)
+                        {
+                            <option value="@addon.Id">@addon.Name</option>
+                        }
+                    </select>
+                }
+            </div>
+        </div>
+    }
+
+
+    <button class="btn btn-secondary" @onclick="AddNewItem">Add Item</button>
+
+    <button type="submit" @onclick="SubmitOrder" class="btn btn-primary">Submit Order</button>
+</EditForm>
+
+<style>
+    form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+    margin-bottom: 1.5rem;
+    }
+
+    label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    input.form-control,
+    textarea.form-control {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+    }
+
+    input:focus,
+    textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    }
+
+    button.btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    button.btn:hover {
+    background-color: #0056b3;
+    }
+
+    .form-section {
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f5f7fa;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+
+</style>
 
 @code {
-    private int currentCount = 0;
+    Order_Header NewOrder = new Order_Header();
+    List<Customer> AllCustomers = new List<Customer>();
+    List<Card_Info> AllPayments = new List<Card_Info>();
+    List<Bakery_Item> AllBakeryItems = new List<Bakery_Item>();
+    List<Card_Info> Applicable_Payments = new List<Card_Info>();
+    List<Order_Line> NewOrderLines = new List<Order_Line>();
+    List<Drink_Addon> AllDrinkAddons = new List<Drink_Addon>();
 
-    private void IncrementCount()
+    protected override async Task OnInitializedAsync()
     {
-        currentCount++;
+        var temp = await _customerService.GetAllAsync();
+        AllCustomers = temp.ToList();
+
+        var temp2 = await _cardInfoService.GetAllAsync();
+        AllPayments = temp2.ToList();
+
+        var temp3 = await _bakeryItemService.GetAllAsync();
+        AllBakeryItems = temp3.ToList();
+
+        var temp4 = await _drinkAddonService.GetAllAsync();
+        AllDrinkAddons = temp4.ToList();
+
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private async Task GetNewPayments(ChangeEventArgs e)
+    {
+        int selectedCustomerId = int.Parse(e.Value.ToString());
+        Applicable_Payments = AllPayments.Where(p => p.Customer_Id == selectedCustomerId).ToList();
+        NewOrder.Customer_Id = selectedCustomerId;
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private async Task AddNewItem()
+    { 
+        NewOrderLines.Add(new Order_Line{Item = new Bakery_Item() }); 
+
+        await InvokeAsync(StateHasChanged); 
+    }
+
+    private async Task AddedABakeryItem(ChangeEventArgs e, Order_Line theItem)
+    {
+        var itemId = int.Parse(e.Value.ToString());
+        var refBakeItem = AllBakeryItems.Where(b => b.Id == itemId).FirstOrDefault();
+
+        theItem.Item_Id = itemId;
+        theItem.Item = refBakeItem;
+        theItem.Order_Header_Id = NewOrder.Id;
+        theItem.Addon = false;
+    }
+
+    private async Task AddedDrinkAddon(ChangeEventArgs e)
+    {
+        
+    }
+
+    private async Task SubmitOrder()
+    {
+        await _orderHeaderService.AddAsync(NewOrder);
+
+        foreach (var line in NewOrderLines)
+        {
+            await _orderLineService.AddAsync(line);
+        }
+        await _orderHeaderService.AddAsync(NewOrder);
+
+        NewOrder = new Order_Header();
+        NewOrderLines.Clear();
     }
 }
