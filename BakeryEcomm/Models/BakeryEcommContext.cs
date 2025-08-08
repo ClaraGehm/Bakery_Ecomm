@@ -8,6 +8,10 @@ namespace BakeryEcomm.Models;
 
 public partial class BakeryEcommContext : DbContext
 {
+    public BakeryEcommContext()
+    {
+    }
+
     public BakeryEcommContext(DbContextOptions<BakeryEcommContext> options)
         : base(options)
     {
@@ -26,9 +30,8 @@ public partial class BakeryEcommContext : DbContext
     public virtual DbSet<Order_Line> Order_Lines { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=LAPTOP-5CNT3UQE;Database=BakeryEcomm;Integrated Security=True;Encrypt=True;TrustServerCertificate=True");
-
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Server=LAPTOP-5CNT3UQE;Database=BakeryEcomm;Integrated Security=True;Encrypt=True;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -39,29 +42,20 @@ public partial class BakeryEcommContext : DbContext
 
         modelBuilder.Entity<Card_Info>(entity =>
         {
-            entity.Property(e => e.Id).ValueGeneratedNever();
-
             entity.HasOne(d => d.Customer).WithMany(p => p.Card_Infos)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Card_Info_Customer");
-        });
-
-        modelBuilder.Entity<Customer>(entity =>
-        {
-            entity.Property(e => e.Id).ValueGeneratedNever();
         });
 
         modelBuilder.Entity<Drink_Addon>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK_Addons");
 
-            entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.Name).IsFixedLength();
         });
 
         modelBuilder.Entity<Order_Header>(entity =>
         {
-            entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.Timestamp)
                 .IsRowVersion()
                 .IsConcurrencyToken();
@@ -77,8 +71,6 @@ public partial class BakeryEcommContext : DbContext
 
         modelBuilder.Entity<Order_Line>(entity =>
         {
-            entity.Property(e => e.Id).ValueGeneratedNever();
-
             entity.HasOne(d => d.Item).WithMany(p => p.Order_Lines)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Order_Line_Bakery_Items");
